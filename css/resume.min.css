@@ -23,13 +23,18 @@ h1{
     line-height:5.5rem
 }
 h2{
-    font-size:3.5rem
+    font-size:2.8rem
 }
 .subheading{
     font-weight:500;
     font-family:"Open Sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Helvetica, Arial, Tahoma, sans-serif;
     font-size:1.35rem
 }
+
+ui {
+    list-style: none;
+}
+
 .list-social-icons a{
     color:#495057
 }
