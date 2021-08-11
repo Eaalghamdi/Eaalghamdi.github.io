@@ -159,3 +159,7 @@ small{
 .img_experince {
     height: 100px;
 }
+
+.title_center {
+    text-align: center;
+}
