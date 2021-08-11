@@ -163,3 +163,7 @@ small{
 .title_center {
     text-align: center;
 }
+
+.nargin_20 {
+    margin: 20px;
+}
