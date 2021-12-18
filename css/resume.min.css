@@ -31,6 +31,10 @@ h2{
     font-size:1.35rem
 }
 
+a {
+    text-decoration: none;
+}
+
 ui {
     list-style: none;
 }
@@ -166,4 +170,7 @@ small{
 
 .nargin_20 {
     margin: 20px;
+}
+#AillA_lab_button {
+    color: #DCAA3B;
 }
