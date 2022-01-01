@@ -9,8 +9,10 @@
     <meta name="author" content="Emad A. Alghamdi">
 
     <title>Emad A. Alghamdi</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS --> 
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
@@ -145,38 +147,80 @@
         <div class="col-10 d-none d-sm-block">
 
 
-          <h4 id="subtitle" class="mb-0">News & Talks <a> <small> (Read ALL) </small></a></h4>
+          <h4 id="subtitle" class="mb-0">News</a></h4>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Successes</button>
+              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Failures</button>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <!-- Good News -->
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
 
-        <table class="table table-sm table-hover">
-          <thead>
-
-          </thead>
-          <tbody>
-            <tr>
-              <td><small> 31-10-2021</small> </td>
-              <td> Our Chapter "Understanding the role of AI and learning analytics techniques in addressing task difficulties in STEM education" was accepted.  </small></td>
-              <td> <small> @Springer's Book</td>
-          </tr>
-            <tr>
-              <td><small> 24-9-2021</small> </td>
-              <td> Our paper "The use of lexical complexity for assessing difficulty in instructional videos" was accepted.  </small></td>
-              <td> <small> @ Language Learning & Technolog</td>
-          </tr>
-              <td><small> 28-7-2021</small> </td>
-                  <td>  I completed my PhD in computational linguistics 
-                     </small></td>
-                  <td> <small> @ The University of Melbourne </td>
-              </tr>
-              <tr>
-                <td><small> 15-2-2021</small> </td>
-                    <td>  I completed my internship at MDAP 
-                       </small></td>
-                    <td> <small> @ The University of Melbourne </td>
+              <table class="table table-sm table-hover">
+                <thead>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><small> 31-10-2021</small> </td>
+                    <td> Our Ch "Understanding the role of AI and learning analytics techniques in addressing task difficulties in STEM education" was accepted.  </small></td>
                 </tr>
-              <tr>
+                  <tr>
+                    <td><small> 24-9-2021</small> </td>
+                    <td> Our paper "The use of lexical complexity for assessing difficulty in instructional videos" was accepted.  </small></td>
+                    
+                </tr>
+                    <td><small> 28-7-2021</small> </td>
+                        <td>  I completed my PhD in computational linguistics 
+                           </small></td>
+                
+                    </tr>
+                    <tr>
+                      <td><small> 15-2-2021</small> </td>
+                          <td>  I completed my internship at MDAP 
+                             </small></td>
+                        
+                      </tr>
+                    <tr>
+      
+                </tbody>
+              </table>
 
-          </tbody>
-        </table>
+            </div>
+
+            <!-- Bad News -->
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+              <table class="table table-sm table-hover">
+                <thead>
+      
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><small> 2021</small> </td>
+                    <td> Our propposal for Cambridge Press grant was not accepted </small></td>
+  
+                </tr>
+                  <tr>
+                    <td><small> 2021</small> </td>
+                    <td> Our propposal for Pearson grant was not accepted   </small></td>
+         
+                </tr>
+                    <td><small> 2021</small> </td>
+                        <td>  Our propposal for ETS grant was not accepted 
+                           </small></td>
+               
+                    </tr>
+                  
+                    <tr>
+      
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="project">
@@ -604,9 +648,9 @@
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <!-- <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
