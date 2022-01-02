@@ -178,3 +178,11 @@ small{
 #AillA_lab_button {
     background-color: #DCAA3B;
 }
+
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: gray !important;
+  }
+  
+  .nav-link {
+      color: gray;
+  }
