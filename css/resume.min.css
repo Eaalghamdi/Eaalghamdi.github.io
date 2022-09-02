@@ -132,7 +132,7 @@ section.resume-section .resume-item .resume-date{
     color:#bd5d38!important
 }
 a{
-    color:#868e96
+    color:darkblue
 }
 a:active,a:focus,a:hover{
     color:#824027
@@ -148,12 +148,15 @@ a:active,a:focus,a:hover{
 }
 
 small{
-    font-size: 14px;
+    font-size: 13px;
 }
 #subtitle {
     padding:8px 0px;;
 }
 
+#smallFont {
+    font-size: 13px;
+}
 
 .colly {
 
